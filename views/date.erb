@@ -4,7 +4,8 @@
         <title>Date</title>
     </head>
     <body>
-      <% da = Datetime.strftime( '%A %B %-d %Y') %> 
+      <% date = Datetime.now %>
+      <% str = date.strftime( '%A %B %-d %Y') %> 
         <h1>The date is <%=da%></h1>
     </body>
 </html>
